@@ -1,9 +1,13 @@
+import Home from './componentes/Home/Home'
 import ToDoList from './componentes/ToDoList/ToDoList'
 
 const App = () => {
 
   return (
-      <ToDoList/>
+    <>
+      <Home />
+      <ToDoList />
+    </>
   )
 }
 
