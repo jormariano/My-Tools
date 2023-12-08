@@ -8,7 +8,7 @@ const Home = () => {
                 <h2>Calendario</h2>
                 <h2>Calculadora</h2>
                 <h2>Conversor de divisas</h2>
-                <h2>Juego del ahorcado</h2>
+                <h2>Encuesta en linea</h2>
                 <h2>Reloj Mundial</h2>
             </div>
         </>
