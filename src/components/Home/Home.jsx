@@ -1,17 +1,16 @@
 import './Home.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
-        <>
-            <div>
-                <h2>Lista de Tareas</h2>
-                <h2>Calendario</h2>
-                <h2>Calculadora</h2>
-                <h2>Conversor de divisas</h2>
-                <h2>Encuesta en linea</h2>
-                <h2>Reloj Mundial</h2>
-            </div>
-        </>
+        <div className='home-container'>
+            <Link to='/calculator'> <button>Calculator</button> </Link>
+            <Link to='/calendar'><button>Calendar 4'</button></Link>
+            <Link to='/todolist'><button>To do List</button></Link>
+            <Link to='/worldtime'><button>World Time</button></Link>
+            <Link to='/currencyconverter'><button>Currency Converter</button></Link>
+            <Link to='/survey'><button>Survey</button></Link>
+        </div>
     )
 }
 
