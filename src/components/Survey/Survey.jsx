@@ -2,7 +2,9 @@ import './Survey.css'
 
 const Survey = () => {
   return (
-    <div>Survey</div>
+    <div className='survey-container'>
+      <h2>Survey</h2>
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import './WorldTime.css'
 
 const WorldTime = () => {
   return (
-    <div>WorldTime</div>
+    <div className='time-container'>
+      <h2>WorldTime</h2>
+    </div>
   )
 }
 

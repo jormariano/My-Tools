@@ -1,0 +1,41 @@
+.weather-info {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.weather-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info-img {
+    width: 110px;
+}
+
+.weather-info-city {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.weather-info-country {
+    font-size: 20px;
+    text-align: center;
+}
+
+.weather-info-condition {
+    font-size: 24px;
+}
+
+.weather-info-current {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}

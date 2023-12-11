@@ -1,0 +1,12 @@
+.survey-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 608px;
+}
+
+.survey-container h2 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}

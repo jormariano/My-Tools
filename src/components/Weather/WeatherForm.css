@@ -1,0 +1,21 @@
+.weather-form-container {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather-form-container label {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.weather-form-container input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 0;
+    border-radius: 3px;
+}

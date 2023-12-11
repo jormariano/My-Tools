@@ -13,11 +13,9 @@ const NavBar = () => {
 
                     <li><NavLink to="/calculator" className="nav-link"> CALCULATOR </NavLink></li>
 
-                    <li><NavLink to="/calendar" className="nav-link"> CALENDAR </NavLink></li>
-
                     <li><NavLink to="/todolist" className="nav-link"> TO DO LIST </NavLink></li>
 
-                    <li><NavLink to="/currencyconverter" className="nav-link"> CURRENCY CONVERTER </NavLink></li>
+                    <li><NavLink to="/weather" className="nav-link"> WEATHER </NavLink></li>
 
                     <li><NavLink to="/worldtime" className="nav-link"> WORLD TIME </NavLink></li>
 
