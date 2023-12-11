@@ -1,0 +1,40 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-socialnetworks {
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socialnetworks a img {
+    padding: 0px;
+    margin: 0px 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.footer-copy-logo {
+    display: flex;
+    justify-content: center;
+    margin: 3px 0px;
+}
+
+.footer-copyright {
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.img-logo-footer {
+    height: 18px;
+    width: 100px;
+    margin: 0px 5px;
+}

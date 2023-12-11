@@ -7,6 +7,7 @@ import ToDoList from './components/ToDoList/ToDoList'
 import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter'
 import WorldTime from './components/WorldTime/WorldTime'
 import Survey from './components/Survey/Survey'
+import Footer from './components/Footer/Footer'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path='/survey' element={<Survey/>}/>
           <Route path='*' element={<div className='not-found'><h2>404 NOT FOUND. GO TO </h2> <Link to='/'><h2>HOME</h2></Link></div>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

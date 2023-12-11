@@ -45,10 +45,10 @@ const ToDoList = () => {
 
     return (
         <div>
-            <h1>Lista de Tareas</h1>
-            <form onSubmit={manejadorSubmit}>
-                <input type="text" placeholder="Ingrese una tarea" value={inputValue} onChange={ (e) => setInputValue(e.target.value)}/>
-                <button type="submit"> Agregar </button>
+            <h2 className='tdl-tittle'>TO DO LIST</h2>
+            <form className='tdl-form' onSubmit={manejadorSubmit}>
+                <input className='tdl-input' type="text" placeholder="Ingrese una tarea" value={inputValue} onChange={ (e) => setInputValue(e.target.value)}/>
+                <button className='tdl-button' type="submit"> Agregar </button>
                 <ul>
                     {
                         todos.map((todo, index) => (
