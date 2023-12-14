@@ -1,23 +1,31 @@
+.todolist-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
 .tdl-tittle {
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
+    margin: 15px;
 }
 
 /* Estilos para el formulario */
 .tdl-form {
     display: flex;
     margin-bottom: 20px;
-    width: 50vw;
+    height: 70px;
+    width: 800px;
     margin: auto;
 }
 
 .tdl-input {
     flex: 1;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid black;
     border-radius: 5px 0 0 5px;
-    font-size: 16px;
+    font-size: 26px;
 }
 
 .tdl-button {

@@ -1,7 +1,7 @@
 // Para arrancar con string (""), con array vacio ([]), con objeto (null), numero (0)
 
 import './ToDoList.css'
-import ToDoItem from "../ToDoItem/ToDoItem";
+import ToDoItem from "../ToDoList/ToDoItem";
 import { useState, useEffect } from "react"
 
 const ToDoList = () => {
@@ -44,7 +44,7 @@ const ToDoList = () => {
     }, [todos]);
 
     return (
-        <div>
+        <div className='todolist-container'>
             <h2 className='tdl-tittle'>TO DO LIST</h2>
             <form className='tdl-form' onSubmit={manejadorSubmit}>
                 <input className='tdl-input' type="text" placeholder="Ingrese una tarea" value={inputValue} onChange={ (e) => setInputValue(e.target.value)}/>

@@ -17,7 +17,7 @@ const NavBar = () => {
 
                     <li><NavLink to="/weather" className="nav-link"> WEATHER </NavLink></li>
 
-                    <li><NavLink to="/worldtime" className="nav-link"> WORLD TIME </NavLink></li>
+                    <li><NavLink to="/clock" className="nav-link"> CLOCK </NavLink></li>
 
                     <li><NavLink to="/survey" className="nav-link"> SURVEY </NavLink></li>
 

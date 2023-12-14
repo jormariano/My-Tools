@@ -7,7 +7,7 @@ const Home = () => {
             <Link to='/calculator'> <button>Calculator</button> </Link>
             <Link to='/todolist'><button>To do List</button></Link>
             <Link to='/weather'><button>Weather</button></Link>
-            <Link to='/worldtime'><button>World Time</button></Link>
+            <Link to='/clock'><button>Clock</button></Link>
             <Link to='/survey'><button>Survey</button></Link>
         </div>
     )
