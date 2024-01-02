@@ -1,24 +1,22 @@
 header {
-    height: 62px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header nav ul {
+    list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    padding: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-ul {
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-}
-
-li {
-    display: inline-block;
-    margin: 10px 25px;
-    align-items: center;
+header nav ul li {
+    margin: 10px 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -26,4 +24,17 @@ li {
 .nav-link {
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 850px) {
+    header nav ul li {
+        margin: 10px;
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header nav ul li {
+        font-size: .5rem;
+    }
 }

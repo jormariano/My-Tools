@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className='footer-copy-logo'>
           <p className='footer-copyright'> Copyright © 2023 </p>
-          <Link to="/"><img className="img-logo-footer" src={imgLogo} alt="logo de la empresa" /></Link>
+          <Link to="https://jmariano.netlify.app"><img className="img-logo-footer" src={imgLogo} alt="logo de la empresa" /></Link>
         </div>
       </div>
     </>

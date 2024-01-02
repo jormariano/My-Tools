@@ -1,12 +1,107 @@
-.survey-container {
+.survey-body {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    height: 608px;
+    height: 80vh;
 }
 
-.survey-container h2 {
-    font-size: 3rem;
-    margin-bottom: 25px;
+.survey-container {
+    background-color: #252d4a;
+    border-radius: 15px;
+    padding: 30px;
+    gap: 40px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    color: white;
 }
+
+.survey-questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.survey-questions h2 {
+    font-size: 2rem;
+}
+
+.survey-questions h3 {
+    font-size: 1.5rem;
+}
+
+.time-left {
+    font-size: 1rem;
+    color: #fcbf3d;
+    margin-bottom: 20px;
+}
+
+.survey-answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.survey-answers button {
+    width: 250px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 10px;
+    background-color: #252d4a;
+    border: 5px solid #234668;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.correct,
+.correct:hover {
+    background-color: #2f922f;
+}
+
+.incorrect,
+.incorrect:hover {
+    background-color: #ff3333;
+}
+
+/*
+ FINALIZADO 
+.juego-terminado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+}
+
+/* GRAL 
+.button-answer {
+    font-size: 16px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button:hover {
+    background-color: #234668;
+}
+
+button[disabled] {
+    background-color: #555e7d;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+button:focus {
+    outline: none;
+}
+
+button svg {
+    margin-right: 5px;
+}
+
+*/

@@ -7,12 +7,12 @@
     --tertiary: #ffffff;
     --box-shadow: 0 0 50px (0, 0, 0, 0.20);
 
-    height: 608px;
     display: grid;
     place-items: center;
     background-color: var(--back);
     color: var(--text);
     transition: 1000ms;
+    height: 80vh;
 }
 
 .calculator-container {
